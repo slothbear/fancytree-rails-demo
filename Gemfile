@@ -32,6 +32,7 @@ gem 'spring',        group: :development
 
 gem 'jquery-ui-rails'
 gem 'fancytree-rails'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
