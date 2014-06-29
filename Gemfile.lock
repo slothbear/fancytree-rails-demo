@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:lksv/fancytree-rails.git
+  remote: https://github.com/lksv/fancytree-rails.git
   revision: a990ce60060d6e604fa19aaebd724d12ac40163f
   branch: master
   specs:

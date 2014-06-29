@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'jquery-ui-rails'
-gem 'fancytree-rails', :git => 'git@github.com:lksv/fancytree-rails.git', :branch => 'master'
+gem 'fancytree-rails', :git => 'https://github.com/lksv/fancytree-rails.git', :branch => 'master'
 gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
