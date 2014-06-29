@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:lksv/fancytree-rails.git
+  revision: a990ce60060d6e604fa19aaebd724d12ac40163f
+  branch: master
+  specs:
+    fancytree-rails (2.1.0.pre.0)
+      jquery-rails
+      jquery-ui-rails
+      railties (>= 3.2.0, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,10 +48,6 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.2.0)
-    fancytree-rails (0.0.2)
-      jquery-rails
-      jquery-ui-rails
-      railties (>= 3.2.0, < 5.0)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.1.1)
@@ -126,7 +132,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  fancytree-rails
+  fancytree-rails!
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
