@@ -3,9 +3,13 @@
 <script type="text/javascript">
     $(function(){
       $("#tree").fancytree();
+      $("#ajax-tree").fancytree({
+        source: {url: "/getTreeData.json"},
+      });
     });
   </script>
 
+<h3>static tree</h3>
 <div id="tree">
   <ul>
     <% @categories.each do |category| %>
@@ -13,6 +17,13 @@
         <li class="folder"><%= category.name %></li>
     <% end %>
   </ul>
+</div>
+
+<hr>
+
+<h3>ajax tree</h3>
+<div id="ajax-tree">
+
 </div>
 
 <br>

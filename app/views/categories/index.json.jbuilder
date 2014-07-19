@@ -1,4 +1,4 @@
 json.array!(@categories) do |category|
-  json.extract! category, :id, :name
-  json.url category_url(category, format: :json)
+  json.title category.name
+  json.folder [true, false].sample
 end
